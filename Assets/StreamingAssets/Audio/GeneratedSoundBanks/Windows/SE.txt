@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2015435550	TEST_health			\SE\TEST_health	
+	2786533262	TEST_staff			\SE\TEST_staff	
+

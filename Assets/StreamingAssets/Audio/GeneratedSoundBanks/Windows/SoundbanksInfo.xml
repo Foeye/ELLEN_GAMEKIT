@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../Ellen 073023_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>../../../../../Ellen 073023_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../Ellen 073023_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{337824F3-7AA6-D440-AFCA-1ED65C4C9D0E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1584861537" Type="User" Language="SFX" Hash="{B5D82EC5-BDC5-AA5E-6795-6E92F1118C73}">
+			<ShortName>SE</ShortName>
+			<Path>SE.bnk</Path>
+			<Events>
+				<Event Id="2015435550" Name="TEST_health" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2786533262" Name="TEST_staff" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DA396D8B-553B-2990-B9A3-FFD6FC677DD3}</FileHash>
+</SoundBanksInfo>

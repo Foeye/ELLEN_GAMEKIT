@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	357725821	Music_Exit			\Music\Music_Exit	
+	2400426337	Music_Enter			\Music\Music_Enter	
+	2688623332	Music_Login			\Music\Music_Login	
+	3050945240	New_Event			\Default Work Unit\New_Event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	793948850	NieR_Battle_Lv1-2_90bpm_P1_L40M	Y:\Desktop\Test\Demo Project 2024\Ellen 073023\Ellen 073023_WwiseProject\.cache\Windows\SFX\NieR_Battle_Lv1-2_90bpm_P1_L40M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Segment\NieR_Battle_Lv1-2_90bpm_P1_L40M		19756896
+

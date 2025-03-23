@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21CFCB3B-2EA2-41ED-AF4A-916339A84448}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="SE" ID="{21CFCB3B-2EA2-41ED-AF4A-916339A84448}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TEST_health" ID="{A1B48609-3166-43B3-982F-C9D321643080}"/>
+				<Event Name="TEST_staff" ID="{E7129850-BB7C-430D-9376-6F565452336E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,458 @@
+[
+  {
+    "Description": "UI登录音乐",
+    "WwiseEventName": "Music_Login",
+    "BindingType": "Music",
+    "BindingImpl": "UI"
+  },
+  {
+    "Description": "登陆音效",
+    "WwiseEventName": "SE_Login",
+    "BindingType": "SE",
+    "BindingImpl": "UI"
+  },
+  {
+    "Description": "游戏音乐",
+    "WwiseEventName": "Music_Gameplay",
+    "BindingType": "Music",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "玩家生命值",
+    "WwiseEventName": "PlayerHealth",
+    "BindingType": "RTPC",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "菜单按钮Start",
+    "WwiseEventName": "Menu_Buttons_Click_Start",
+    "BindingType": "SE",
+    "BindingImpl": "UI"
+  },
+  {
+    "Description": "菜单按钮Exit",
+    "WwiseEventName": "Menu_Buttons_Click_Exit",
+    "BindingType": "SE",
+    "BindingImpl": "UI"
+  },
+  {
+    "Description": "菜单按钮Normal",
+    "WwiseEventName": "Menu_Buttons_Click_Normal",
+    "BindingType": "SE",
+    "BindingImpl": "UI"
+  },
+  {
+    "Description": "菜单鼠标划过",
+    "WwiseEventName": "Menu_Buttons_Mouse_Over",
+    "BindingType": "SE",
+    "BindingImpl": "UI"
+  },
+  {
+    "Description": "打算弃用",
+    "WwiseEventName": "Ellen_Footstep_Landing",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "Ellen待机1",
+    "WwiseEventName": "Ellen_Idle_01",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "Ellen待机2",
+    "WwiseEventName": "Ellen_Idle_02",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "Ellen待机3",
+    "WwiseEventName": "Ellen_Idle_03",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "走路",
+    "WwiseEventName": "Ellen_Footstep_Walk",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "设置草地Switch",
+    "WwiseEventName": "Set_FootStep_Switch_Grass",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "设置石头Switch",
+    "WwiseEventName": "Set_FootStep_Switch_Rock",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "设置金属Switch",
+    "WwiseEventName": "Set_FootStep_Switch_Metal",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "跳跃",
+    "WwiseEventName": "Ellen_Footstep_Jump",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "攻击语音",
+    "WwiseEventName": "Ellen_Attack_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "受伤语音",
+    "WwiseEventName": "Ellen_Hurt_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "死亡语音",
+    "WwiseEventName": "Ellen_Death_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "武器发出持续的声音",
+    "WwiseEventName": "Weapon_Stick",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "拿起武器棍棒",
+    "WwiseEventName": "Weapon_Stick_Pickup",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "武器棍棒挥舞1",
+    "WwiseEventName": "Weapon_Stick_Swipe_Sub_1",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "武器棍棒挥舞2",
+    "WwiseEventName": "Weapon_Stick_Swipe_Sub_2",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "武器棍棒挥舞3",
+    "WwiseEventName": "Weapon_Stick_Swipe_Sub_3",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "武器棍棒挥舞4",
+    "WwiseEventName": "Weapon_Stick_Swipe_Sub_4",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "可破坏箱子击碎",
+    "WwiseEventName": "Destructible_Boxes_Hit",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "触发Chomper警戒音乐",
+    "WwiseEventName": "Monster_Aware",
+    "BindingType": "Music",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper脱离警戒音乐",
+    "WwiseEventName": "Monster_Unaware",
+    "BindingType": "Music",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper命中",
+    "WwiseEventName": "Chomper_Hit",
+    "BindingType": "SE",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper脚步前脚",
+    "WwiseEventName": "Chomper_Run_Ft_Front",
+    "BindingType": "SE",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper脚步后脚",
+    "WwiseEventName": "Chomper_Run_Ft_Back",
+    "BindingType": "SE",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper攻击语气",
+    "WwiseEventName": "Chomper_Attack_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper死亡语气",
+    "WwiseEventName": "Chomper_Death_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "Chomper待机语气",
+    "WwiseEventName": "Chomper_Idle_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Chomper"
+  },
+  {
+    "Description": "生命药剂箱静态音效",
+    "WwiseEventName": "Health_Boxes",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "生命药剂箱打开",
+    "WwiseEventName": "HealthBoxes_Open",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "压力垫发出持续的声音",
+    "WwiseEventName": "Pressure_Pad",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "踏上压力垫",
+    "WwiseEventName": "Pressure_Pad_Enter",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "离开压力垫",
+    "WwiseEventName": "Pressure_Pad_Exit",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "第一道门打开",
+    "WwiseEventName": "TL_L1_Door_Open_01",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "开关激活前发出持续的声音",
+    "WwiseEventName": "Switch_Activated_Before",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "激活后的自带音效可以在这里切state",
+    "WwiseEventName": "Switch_Activated",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "第二道门打开",
+    "WwiseEventName": "TL_L1_Door_Open_02",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "探索音乐",
+    "WwiseEventName": "Music_Story",
+    "BindingType": "Music",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "第三道门打开",
+    "WwiseEventName": "TL_L1_Door_Open_03",
+    "BindingType": "SE",
+    "BindingImpl": "Interactable"
+  },
+  {
+    "Description": "Boss音乐",
+    "WwiseEventName": "Music_Boss",
+    "BindingType": "Music",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier拳击",
+    "WwiseEventName": "Grenadier_Punch_Attack",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier远程攻击",
+    "WwiseEventName": "Grenadier_Shoot_Attack",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier远程攻击爆炸",
+    "WwiseEventName": "Grenadier_Grenade_Explosion",
+    "BindingType": "SE",
+    "BindingImpl": "Grenade"
+  },
+  {
+    "Description": "Grenadier远程攻击反弹",
+    "WwiseEventName": "Grenadier_Grenade_Bounce",
+    "BindingType": "SE",
+    "BindingImpl": "Grenade"
+  },
+  {
+    "Description": "Grenadier启动盾牌",
+    "WwiseEventName": "Grenadier_ShieldUp",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier盾牌停止",
+    "WwiseEventName": "Grenadier_ShieldDown",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier中心亮红灯",
+    "WwiseEventName": "Grenadier_Gets_Red",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier命中",
+    "WwiseEventName": "Grenadier_Hit",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier脚步",
+    "WwiseEventName": "Grenadier_Feet_And_Armour",
+    "BindingType": "SE",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier攻击语音",
+    "WwiseEventName": "Grenadier_Attack_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "Grenadier死亡语音",
+    "WwiseEventName": "Grenadier_Death_Vox",
+    "BindingType": "VX",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "战胜Boss音乐",
+    "WwiseEventName": "Music_Victory",
+    "BindingType": "Music",
+    "BindingImpl": "Grenadier"
+  },
+  {
+    "Description": "离开关卡",
+    "WwiseEventName": "Music_Complete",
+    "BindingType": "Music",
+    "BindingImpl": "Teleporter"
+  },
+  {
+    "Description": "死亡音乐",
+    "WwiseEventName": "Music_Death",
+    "BindingType": "Music",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "重生音乐",
+    "WwiseEventName": "Music_Respawn",
+    "BindingType": "Music",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "Ellen语音台词第一句",
+    "WwiseEventName": "Ellen_Voice_01",
+    "BindingType": "VO",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "Ellen语音台词第二句",
+    "WwiseEventName": "Ellen_Voice_02",
+    "BindingType": "VO",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "Ellen语音台词第三句",
+    "WwiseEventName": "Ellen_Voice_03",
+    "BindingType": "VO",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "Ellen语音台词第四句前半句",
+    "WwiseEventName": "Ellen_Voice_04",
+    "BindingType": "VO",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "Ellen语音台词第四句后半句",
+    "WwiseEventName": "Ellen_Voice_04b",
+    "BindingType": "VO",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "Ellen语音台词第五句",
+    "WwiseEventName": "Ellen_Voice_05",
+    "BindingType": "VO",
+    "BindingImpl": "Global"
+  },
+  {
+    "Description": "传送门",
+    "WwiseEventName": "Teleporter",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "湖水",
+    "WwiseEventName": "Lake_water",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "萤火虫",
+    "WwiseEventName": "Fireflies",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "场景风声",
+    "WwiseEventName": "Wind",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "出生的船舱",
+    "WwiseEventName": "DropShip",
+    "BindingType": "SE",
+    "BindingImpl": "Amb"
+  },
+  {
+    "Description": "原地落地",
+    "WwiseEventName": "Set_Landing_Switch_Fast_Idle",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "落地前冲",
+    "WwiseEventName": "Set_Landing_Switch_Run",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "落地加速前冲",
+    "WwiseEventName": "Set_Landing_Switch_Fast_Run",
+    "BindingType": "SE",
+    "BindingImpl": "Ellen"
+  }
+]
