@@ -4,3 +4,6 @@ UserSettings
 UserSettings
 *.sln
 logRunSetup.txt
+*.csproj
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+ProjectSettings/ProjectSettings.asset
