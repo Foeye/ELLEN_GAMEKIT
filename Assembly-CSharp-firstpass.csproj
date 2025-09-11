@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9884de54-9504-0305-597d-50ff502718ad}</ProjectGuid>
+    <ProjectGuid>{8709bb62-8a5a-ee13-e407-06ce692b4f28}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,35 +41,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Assets\Plugins\Sirenix\Odin Inspector\Assets" />
-     <Folder Include="Assets\Plugins\Sirenix\Odin Inspector\Config" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
-     <Folder Include="Assets\Plugins\Sirenix\Assemblies" />
-     <Folder Include="Assets\Plugins\Sirenix\Odin Inspector\Modules" />
-     <Folder Include="Assets\Plugins" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
-     <Folder Include="Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
-     <Folder Include="Assets\Plugins\Sirenix\Demos" />
-     <None Include="Assets\Plugins\Sirenix\Readme.txt" />
-     <Folder Include="Assets\Plugins\Sirenix\Assemblies\NoEditor" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\link.xml" />
-     <Folder Include="Assets\Plugins\Sirenix\Odin Inspector\Config\Resources" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
-     <Folder Include="Assets\Plugins\Sirenix" />
-     <Folder Include="Assets\Plugins\Sirenix\Odin Inspector\Config\Resources\Sirenix" />
-     <Folder Include="Assets\Plugins\Sirenix\Odin Inspector" />
-     <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
-     <Reference Include="UnityEngine">
-     <HintPath>E:\Application\Unity\2022.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.CoreModule">
-     <HintPath>E:\Application\Unity\2022.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor">
-     <HintPath>E:\Application\Unity\2022.2.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
-     </Reference>
+    <None Include="Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml" />
+    <None Include="Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml" />
+    <None Include="Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml" />
+    <None Include="Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml" />
+    <None Include="Assets/Plugins/Sirenix/Readme.txt" />
+    <None Include="Assets/Plugins/Sirenix/Assemblies/link.xml" />
+    <None Include="Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml" />
+    <None Include="Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.62f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.62f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.62f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

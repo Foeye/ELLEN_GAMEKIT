@@ -1,11 +1,11 @@
 {
-    "originalSdkFolder": "/Applications/Audiokinetic/Wwise 2022.1.6.8263/SDK",
+    "originalSdkFolder": "/Applications/Audiokinetic/Wwise2024.1.7.8863/SDK",
     "currentVersion": {
         "nickname": "",
-        "build": 2826,
+        "build": 3596,
         "major": 1,
-        "minor": 6,
-        "year": 2022
+        "minor": 7,
+        "year": 2024
     },
     "installedBundleGroups": [
         {
@@ -15,30 +15,6 @@
         {
             "id": "Packages",
             "valueId": "Extensions"
-        },
-        {
-            "id": "DeploymentPlatforms",
-            "valueId": "Mac"
-        },
-        {
-            "id": "DeploymentPlatforms",
-            "valueId": "Windows"
-        },
-        {
-            "id": "Packages",
-            "valueId": "Unity"
-        },
-        {
-            "id": "DeploymentPlatforms",
-            "valueId": "Mac"
-        },
-        {
-            "id": "DeploymentPlatforms",
-            "valueId": "Windows"
-        },
-        {
-            "id": "Packages",
-            "valueId": "Unity"
         },
         {
             "id": "DeploymentPlatforms",

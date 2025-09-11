@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6FFBC276-A331-4EA3-842C-F89B188E8D9B}" SchemaVersion="110">
+<WwiseDocument Type="WorkUnit" ID="{6FFBC276-A331-4EA3-842C-F89B188E8D9B}" SchemaVersion="123">
 	<GameParameters>
 		<WorkUnit Name="Music" ID="{6FFBC276-A331-4EA3-842C-F89B188E8D9B}" PersistMode="Standalone">
 			<ChildrenList>
