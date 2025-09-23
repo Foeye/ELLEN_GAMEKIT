@@ -454,5 +454,17 @@
     "WwiseEventName": "Set_Landing_Switch_Fast_Run",
     "BindingType": "SE",
     "BindingImpl": "Ellen"
+  },
+  {
+    "Description": "鱼跃出水面",
+    "WwiseEventName": "Fish_Leap",
+    "BindingType": "SE",
+    "BindingImpl": "Env"
+  },
+  {
+    "Description": "鱼跃入水里",
+    "WwiseEventName": "Fish_Plunge",
+    "BindingType": "SE",
+    "BindingImpl": "Env"
   }
 ]
