@@ -13,6 +13,7 @@ namespace Gamekit3D
         public UnityEvent OnEnter, OnExit;
         new Collider collider;
         public InventoryController.InventoryChecker[] inventoryChecks;
+        private bool mIsTriggeredSound = false;
 
         void Reset()
         {
@@ -82,7 +83,11 @@ namespace Gamekit3D
 
         public void SwitchOnSound()
         {
+            if (mIsTriggeredSound) {
+                return;
+            }
             AkSoundEngine.PostEvent(AudioSys.GetWwiseEventName(EllenWwiseEvent.Switch_Activated), gameObject);
+            mIsTriggeredSound = true;
         }
 
 

@@ -76,5 +76,7 @@ namespace GameKit.Utils {
         Set_Landing_Switch_Fast_Idle,
         Set_Landing_Switch_Run,
         Set_Landing_Switch_Fast_Run,
+        Fish_Leap,
+        Fish_Plunge,
     }
 }
