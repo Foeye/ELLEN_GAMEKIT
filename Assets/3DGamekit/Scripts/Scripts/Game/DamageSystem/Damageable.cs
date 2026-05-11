@@ -77,9 +77,15 @@ namespace Gamekit3D
                 return;
             }
 
-            if (isInvulnerable || GMTools.Instance.EllenInvinciable)
-            {
-                OnHitWhileInvulnerable.Invoke();
+            if (isInvulnerable) {
+                if (GMTools.Instance != null) {
+                    if (GMTools.Instance.EllenInvinciable) {
+                        OnHitWhileInvulnerable.Invoke();
+                    }
+                }
+                else {
+                    OnHitWhileInvulnerable.Invoke();    
+                }
                 return;
             }
 

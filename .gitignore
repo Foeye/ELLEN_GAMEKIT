@@ -4,3 +4,9 @@ UserSettings
 UserSettings
 *.sln
 logRunSetup.txt
+.idea
+obj
+Temp
+*.csproj
+ELLEN_3DGameKit_WwiseProject/.cache
+Assets/Wwise
